@@ -1,0 +1,18 @@
+config LIBUKFILE
+	bool "ukfile: Common support for files"
+	select LIBUKATOMIC
+	select LIBUKLOCK
+	select LIBUKLOCK_RWLOCK
+	select LIBUKSCHED
+	select LIBNOLIBC if !HAVE_LIBC
+
+# Hidden, selected by core components when required
+config LIBUKFILE_CHAINUPDATE
+	bool
+
+config LIBUKFILE_FINALIZERS
+	bool
+	select LIBUKLOCK_MUTEX
+
+config LIBUKFILE_POLLED
+	bool

@@ -1,0 +1,1 @@
+gawk --lint -f /home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/unikraft/lib/uklibid/libid.awk        /home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/build/libuklibid/libraries.in > /home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/build/libuklibid/include/uk/bits/libid.h

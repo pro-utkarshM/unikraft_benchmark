@@ -1,0 +1,1 @@
+""objcopy --keep-global-symbols=/home/gilfoyle/Documents/unikraft-benchmark/benchmark-tcp/.unikraft/build/libuklibid/exportsyms.uk        /home/gilfoyle/Documents/unikraft-benchmark/benchmark-tcp/.unikraft/build/libuklibid.ld.o /home/gilfoyle/Documents/unikraft-benchmark/benchmark-tcp/.unikraft/build/libuklibid.o

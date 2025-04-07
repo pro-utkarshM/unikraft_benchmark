@@ -1,0 +1,1 @@
+""objcopy --keep-global-symbols=/home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/unikraft/drivers/ukintctlr/xpic/exportsyms.uk        /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/build/libukintctlr_xpic.ld.o /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/build/libukintctlr_xpic.o

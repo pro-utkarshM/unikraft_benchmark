@@ -1,0 +1,1 @@
+""objcopy --keep-global-symbols=/home/gilfoyle/Documents/unikraft-benchmark/benchmark-syscall/.unikraft/unikraft/lib/uksched/exportsyms.uk        /home/gilfoyle/Documents/unikraft-benchmark/benchmark-syscall/.unikraft/build/libuksched.ld.o /home/gilfoyle/Documents/unikraft-benchmark/benchmark-syscall/.unikraft/build/libuksched.o

@@ -1,0 +1,1 @@
+""objcopy --keep-global-symbols=/home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/unikraft/lib/ukdebug/exportsyms.uk        /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/build/libukdebug.ld.o /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/build/libukdebug.o

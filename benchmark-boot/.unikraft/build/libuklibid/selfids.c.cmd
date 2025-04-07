@@ -1,0 +1,1 @@
+gawk --lint -f /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/unikraft/lib/uklibid/selfids.awk        /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/build/libuklibid/libraries.in > /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/build/libuklibid/selfids.c

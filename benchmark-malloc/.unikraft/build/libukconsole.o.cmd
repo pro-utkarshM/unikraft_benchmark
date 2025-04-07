@@ -1,0 +1,1 @@
+""objcopy --keep-global-symbols=/home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/unikraft/lib/ukconsole/exportsyms.uk        /home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/build/libukconsole.ld.o /home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/build/libukconsole.o

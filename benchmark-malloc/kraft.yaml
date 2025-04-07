@@ -1,0 +1,11 @@
+specification: '0.6'
+name: benchmark-malloc
+unikraft:
+  version: stable
+targets:
+  - architecture: x86_64
+    platform: qemu
+runtime:
+  path: .
+sources:
+  - main.c

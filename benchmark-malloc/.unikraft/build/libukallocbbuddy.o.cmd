@@ -1,0 +1,1 @@
+""objcopy --keep-global-symbols=/home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/unikraft/lib/ukallocbbuddy/exportsyms.uk        /home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/build/libukallocbbuddy.ld.o /home/gilfoyle/Documents/unikraft-benchmark/benchmark-malloc/.unikraft/build/libukallocbbuddy.o
