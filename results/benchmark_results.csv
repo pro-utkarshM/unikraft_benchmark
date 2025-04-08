@@ -1,5 +1,0 @@
-File,Benchmark,Metric,Value,Unit
-benchmark-malloc.txt,Boot,Boot Time,130.192,ms
-benchmark-boot.txt,Boot,Boot Time,128.209,ms
-benchmark-syscall.txt,Boot,Boot Time,125.861,ms
-benchmark-tcp.txt,Boot,Boot Time,127.495,ms
