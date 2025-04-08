@@ -121,7 +121,7 @@ deps_config := \
 /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/build/kconfig/auto.conf: \
 	$(deps_config)
 
-ifneq "$(UK_FULLVERSION)" "0.18.0"
+ifneq "$(UK_FULLVERSION)" "0.18.0~8b39d45"
 /home/gilfoyle/Documents/unikraft-benchmark/benchmark-boot/.unikraft/build/kconfig/auto.conf: FORCE
 endif
 ifneq "$(UK_CODENAME)" "Helene"

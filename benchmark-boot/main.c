@@ -17,7 +17,9 @@ int main(int argc, char *argv[]) {
     uk_pr_info("[BOOT TIME] Duration: %llu ns (%.3f ms)\n", 
                boot_duration_ns, boot_duration_ns / 1e6);
 
-    // your app logic here
+    // ✅ Clean output for parser
+    uk_pr_info("BOOT_TIME: %.3f\n", boot_duration_ns / 1e6);
+
     while (1) { } // idle
 
     return 0;
