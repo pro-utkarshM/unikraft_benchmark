@@ -121,7 +121,7 @@ deps_config := \
 /home/gilfoyle/Documents/unikraft-benchmark/benchmark-tcp/.unikraft/build/kconfig/auto.conf: \
 	$(deps_config)
 
-ifneq "$(UK_FULLVERSION)" "0.18.0~8b39d45"
+ifneq "$(UK_FULLVERSION)" "0.18.0~9b10442"
 /home/gilfoyle/Documents/unikraft-benchmark/benchmark-tcp/.unikraft/build/kconfig/auto.conf: FORCE
 endif
 ifneq "$(UK_CODENAME)" "Helene"

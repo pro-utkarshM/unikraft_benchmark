@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Unikraft/0.18.0~8b39d45 Configuration
+ * Unikraft/0.18.0~9b10442 Configuration
  *
  */
 #define CONFIG_LIBNOLIBC_UKDEBUG_ASSERT 1
@@ -24,7 +24,7 @@
 #define CONFIG_MARCH_X86_64_GENERIC 1
 #define CONFIG_LIBNOLIBC 1
 #define CONFIG_LIBNS16550_COM_AVAIL 1
-#define CONFIG_UK_FULLVERSION "0.18.0~8b39d45"
+#define CONFIG_UK_FULLVERSION "0.18.0~9b10442"
 #define CONFIG_LIBUKINTCTLR_MAX_HANDLERS_PER_IRQ 8
 #define CONFIG_UK_NAME "benchmark-boot"
 #define CONFIG_KVM_VMM_QEMU 1

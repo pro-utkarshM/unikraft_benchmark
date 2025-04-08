@@ -2,10 +2,14 @@ specification: '0.6'
 name: benchmark-syscall
 unikraft:
   version: stable
+  kconfig:
+    CONFIG_LIBUKDEBUG: y
+    CONFIG_LIBUKDEBUG_PRINTK: y
+    CONFIG_LIBNOLIBC: y
+    CONFIG_LIBUKPOSIX_PROCESS: y
+    CONFIG_LIBUKDEBUG_PRINTD: y
+    CONFIG_LIBUKDEBUG_PRINTK_DIRECT: y
+    CONFIG_LIBUKDEBUG_TRACEPOINTS: y
 targets:
   - architecture: x86_64
     platform: qemu
-runtime:
-  path: .
-sources:
-  - main.c

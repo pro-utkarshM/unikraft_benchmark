@@ -106,24 +106,24 @@ level=info msg=using arch="x86_64" plat=qemu
 [    0.000000] dbg:  [libcontext] <tls.c @  204> (tls_area): 0017c020  00 00 00 00 00 00 00 00  28 c0 17 00 00 00 00 00  |........(.......|
 [    0.000000] dbg:  [libcontext] <sysctx.c @   20> Sysctx 0x3fd0008 TLS pointer register updated to 0x17c028 (before: 0)
 [    0.000000] dbg:  [libcontext] <sysctx.c @   37> Sysctx 0x3fd0008 GS_BASE register updated to 0x16d100 (before: 0)
-[    0.100020] dbg:  [libcontext] <sysctx.c @   20> Sysctx 0x90008 TLS pointer register updated to 0x17e028 (before: 0)
-[    0.102609] dbg:  [libuksched] <thread.c @  274> uk_thread 0x17d0d0 (idle): ctx:0x17d0d0, ectx:0x17e040, tlsp:0x17e028
-[    0.105224] dbg:  [libcontext] <tls.c @  173> tls_area_init: target: 0x17e020 (16 bytes)
-[    0.107202] dbg:  [libcontext] <tls.c @  175> tls_area_init: copy (.tdata): 0 bytes
-[    0.109082] dbg:  [libcontext] <tls.c @  177> tls_area_init: uninitialized (.tbss): 4 bytes
-[    0.111131] dbg:  [libcontext] <tls.c @  179> tls_area_init: pad: 4 bytes
-[    0.112793] dbg:  [libcontext] <tls.c @  181> tls_area_init: tcb: 8 bytes
-[    0.114468] dbg:  [libcontext] <tls.c @  183> tls_area_init: tcb self ptr: 0x17e028
-[    0.116379] dbg:  [libcontext] <tls.c @  204> (tls_area): 0017e020  00 00 00 00 00 00 00 00  28 e0 17 00 00 00 00 00  |........(.......|
-[    0.119384] dbg:  [libcontext] <ctx.c @  134> ukarch_ctx 0x17d0d0: entry:0x124470(17d020), sp:0x30018
-[    0.121645] dbg:  [libcontext] <sysctx.c @   20> Sysctx 0x3fd0008 TLS pointer register updated to 0x17c028 (before: 0x17c028)
-[    0.124419] dbg:  [libuksched] <thread.c @  274> uk_thread 0x17f020 (init): ctx:0x17f020, ectx:0x17f100, tlsp:0x17c028
-[    0.127414] dbg:  [libukboot] <boot.c @  381> Call init function: 0x126660(0x10fa0)...
+[    0.100017] dbg:  [libcontext] <sysctx.c @   20> Sysctx 0x90008 TLS pointer register updated to 0x17e028 (before: 0)
+[    0.102564] dbg:  [libuksched] <thread.c @  274> uk_thread 0x17d0d0 (idle): ctx:0x17d0d0, ectx:0x17e040, tlsp:0x17e028
+[    0.105135] dbg:  [libcontext] <tls.c @  173> tls_area_init: target: 0x17e020 (16 bytes)
+[    0.107069] dbg:  [libcontext] <tls.c @  175> tls_area_init: copy (.tdata): 0 bytes
+[    0.108922] dbg:  [libcontext] <tls.c @  177> tls_area_init: uninitialized (.tbss): 4 bytes
+[    0.110948] dbg:  [libcontext] <tls.c @  179> tls_area_init: pad: 4 bytes
+[    0.112590] dbg:  [libcontext] <tls.c @  181> tls_area_init: tcb: 8 bytes
+[    0.114238] dbg:  [libcontext] <tls.c @  183> tls_area_init: tcb self ptr: 0x17e028
+[    0.116106] dbg:  [libcontext] <tls.c @  204> (tls_area): 0017e020  00 00 00 00 00 00 00 00  28 e0 17 00 00 00 00 00  |........(.......|
+[    0.119096] dbg:  [libcontext] <ctx.c @  134> ukarch_ctx 0x17d0d0: entry:0x124470(17d020), sp:0x30018
+[    0.121744] dbg:  [libcontext] <sysctx.c @   20> Sysctx 0x3fd0008 TLS pointer register updated to 0x17c028 (before: 0x17c028)
+[    0.125406] dbg:  [libuksched] <thread.c @  274> uk_thread 0x17f020 (init): ctx:0x17f020, ectx:0x17f100, tlsp:0x17c028
+[    0.128209] dbg:  [libukboot] <boot.c @  381> Call init function: 0x126660(0x10fa0)...
 Powered by
 o.   .o       _ _               __ _
 Oo   Oo  ___ (_) | __ __  __ _ ' _) :_
 oO   oO ' _ `| | |/ /  _)' _` | |_|  _)
 oOo oOO| | | | |   (| | | (_) |  _) :_
  OoOoO ._, ._:_:_,\_._,  .__,_:_, \___)
-                  Helene 0.18.0~8b39d45
+                  Helene 0.18.0~9b10442
 weak main() called. Symbol was not replaced!

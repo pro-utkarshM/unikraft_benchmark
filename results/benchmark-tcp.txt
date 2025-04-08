@@ -1,13 +1,129 @@
-[?25l[?2004h[1m[?] multiple runnable contexts discovered: how would you like to proceed?[0m
-  [38;5;32m[1m▸ [0m[0m[38;5;32;1mrun the cwd's Kraftfile and use '' as arg(s)[0m
-    run the cwd's Kraftfile and use '' as arg(s)
-[D[3A[?] multiple runnable contexts discovered: how would you like to proceed? [38;5;32mrun the cwd's Kraftfile and use '' as arg(s)[0m
-[J[D[2K[?2004l[?25h[?1002l[?1003l[?1006llevel=info msg="use --as=kraftfile-unikraft to skip this prompt in the future"
 level=info msg=using arch="x86_64" plat=qemu
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000000001000-0000000a0000 000000001000-0000000a0000 rw- 0000000000001000  
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000000a0000-0000000c0000 0000000a0000-0000000c0000 rw- 00000000000a0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 0
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  446> No adjustment for these mrd's.
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000000a0000-0000000c0000 0000000a0000-0000000c0000 rw- 00000000000a0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000000f0000-000000100000 0000000f0000-000000100000 r-- 00000000000f0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  446> No adjustment for these mrd's.
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000000e0000-000000100000 0000000e0000-000000100000 r-- 00000000000e0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000000f0000-000000100000 0000000f0000-000000100000 r-- 00000000000f0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  398> Deleting right mrd!
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000000e0000-000000100000 0000000e0000-000000100000 r-- 00000000000e0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000000e0000-000000100000 0000000e0000-000000100000 r-- 00000000000e0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  385> Deleting left mrd!
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000000e0000-000000100000 0000000e0000-000000100000 r-- 00000000000e0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000000100000-000003fe0000 000000100000-000003fe0000 rw- 0000000000100000  
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 0
+[    0.000000] dbg:  [libkvmplat] <memory.c @  446> No adjustment for these mrd's.
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000000100000-000000128000 000000100000-000000128000 r-x 0000000000100000 krnl 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000000100000-000003fe0000 000000100000-000003fe0000 rw- 0000000000100000  
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 1
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 0
+[    0.000000] dbg:  [libkvmplat] <memory.c @  334> mrd's of different priority overlap!
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000000128000-000000139000 000000128000-000000139000 r-- 0000000000128000 krnl 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000000128000-000003fe0000 000000128000-000003fe0000 rw- 0000000000128000  
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 1
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 0
+[    0.000000] dbg:  [libkvmplat] <memory.c @  334> mrd's of different priority overlap!
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000000139000-00000017a000 000000139000-00000017a000 rw- 0000000000139000 krnl 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000000139000-000003fe0000 000000139000-000003fe0000 rw- 0000000000139000  
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 1
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 0
+[    0.000000] dbg:  [libkvmplat] <memory.c @  334> mrd's of different priority overlap!
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  00000017a000-000003fe0000 00000017a000-000003fe0000 rw- 000000000017a000  
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000003fe0000-000004000000 000003fe0000-000004000000 r-- 0000000003fe0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 0
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  446> No adjustment for these mrd's.
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  000003fe0000-000004000000 000003fe0000-000004000000 r-- 0000000003fe0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000feffc000-0000ff000000 0000feffc000-0000ff000000 r-- 00000000feffc000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  446> No adjustment for these mrd's.
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000feffc000-0000ff000000 0000feffc000-0000ff000000 r-- 00000000feffc000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000fffc0000-000100000000 0000fffc0000-000100000000 r-- 00000000fffc0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  446> No adjustment for these mrd's.
+[    0.000000] dbg:  [libkvmplat] <memory.c @  314> Currently coalescing the following memory regions:
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  0000fffc0000-000100000000 0000fffc0000-000100000000 r-- 00000000fffc0000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  383>  00fd00000000-010000000000 00fd00000000-010000000000 r-- 000000fd00000000 rsvd 
+[    0.000000] dbg:  [libkvmplat] <memory.c @  323> Priority of left memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  327> Priority of right memory region: 2
+[    0.000000] dbg:  [libkvmplat] <memory.c @  446> No adjustment for these mrd's.
+[    0.000000] dbg:  [libukboot] <boot.c @  280> Call constructor: 0x125810())...
+[    0.000000] dbg:  [libcontext] <ectx.c @   73> Load/store of extended CPU state: XSAVEOPT
+[    0.000000] dbg:  [libukboot] <boot.c @  280> Call constructor: 0x126610())...
+[    0.000000] dbg:  [libukboot] <boot.c @  217> Trying 0x11000-0xa0000 0x03 
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 13000 - 14000 (order 0)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 14000 - 18000 (order 2)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 18000 - 20000 (order 3)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 20000 - 40000 (order 5)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 40000 - 80000 (order 6)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 80000 - a0000 (order 5)
+[    0.000000] dbg:  [libukboot] <boot.c @  217> Trying 0x17a000-0x3fe0000 0x03 
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 17b000 - 17c000 (order 0)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 17c000 - 180000 (order 2)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 180000 - 200000 (order 7)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 200000 - 400000 (order 9)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 400000 - 800000 (order 10)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 800000 - 1000000 (order 11)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 1000000 - 2000000 (order 12)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 2000000 - 3000000 (order 12)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 3000000 - 3800000 (order 11)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 3800000 - 3c00000 (order 10)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 3c00000 - 3e00000 (order 9)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 3e00000 - 3f00000 (order 8)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 3f00000 - 3f80000 (order 7)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 3f80000 - 3fc0000 (order 6)
+[    0.000000] dbg:  [libukallocbbuddy] <bbuddy.c @  539> 11000: Add allocate unit 3fc0000 - 3fe0000 (order 5)
+[    0.000000] dbg:  [libcontext] <tls.c @  173> tls_area_init: target: 0x17c020 (16 bytes)
+[    0.000000] dbg:  [libcontext] <tls.c @  175> tls_area_init: copy (.tdata): 0 bytes
+[    0.000000] dbg:  [libcontext] <tls.c @  177> tls_area_init: uninitialized (.tbss): 4 bytes
+[    0.000000] dbg:  [libcontext] <tls.c @  179> tls_area_init: pad: 4 bytes
+[    0.000000] dbg:  [libcontext] <tls.c @  181> tls_area_init: tcb: 8 bytes
+[    0.000000] dbg:  [libcontext] <tls.c @  183> tls_area_init: tcb self ptr: 0x17c028
+[    0.000000] dbg:  [libcontext] <tls.c @  204> (tls_area): 0017c020  00 00 00 00 00 00 00 00  28 c0 17 00 00 00 00 00  |........(.......|
+[    0.000000] dbg:  [libcontext] <sysctx.c @   20> Sysctx 0x3fd0008 TLS pointer register updated to 0x17c028 (before: 0)
+[    0.000000] dbg:  [libcontext] <sysctx.c @   37> Sysctx 0x3fd0008 GS_BASE register updated to 0x16d100 (before: 0)
+[    0.100022] dbg:  [libcontext] <sysctx.c @   20> Sysctx 0x90008 TLS pointer register updated to 0x17e028 (before: 0)
+[    0.102566] dbg:  [libuksched] <thread.c @  274> uk_thread 0x17d0d0 (idle): ctx:0x17d0d0, ectx:0x17e040, tlsp:0x17e028
+[    0.105096] dbg:  [libcontext] <tls.c @  173> tls_area_init: target: 0x17e020 (16 bytes)
+[    0.107003] dbg:  [libcontext] <tls.c @  175> tls_area_init: copy (.tdata): 0 bytes
+[    0.108810] dbg:  [libcontext] <tls.c @  177> tls_area_init: uninitialized (.tbss): 4 bytes
+[    0.110771] dbg:  [libcontext] <tls.c @  179> tls_area_init: pad: 4 bytes
+[    0.112381] dbg:  [libcontext] <tls.c @  181> tls_area_init: tcb: 8 bytes
+[    0.114099] dbg:  [libcontext] <tls.c @  183> tls_area_init: tcb self ptr: 0x17e028
+[    0.115918] dbg:  [libcontext] <tls.c @  204> (tls_area): 0017e020  00 00 00 00 00 00 00 00  28 e0 17 00 00 00 00 00  |........(.......|
+[    0.118839] dbg:  [libcontext] <ctx.c @  134> ukarch_ctx 0x17d0d0: entry:0x124470(17d020), sp:0x30018
+[    0.121184] dbg:  [libcontext] <sysctx.c @   20> Sysctx 0x3fd0008 TLS pointer register updated to 0x17c028 (before: 0x17c028)
+[    0.124256] dbg:  [libuksched] <thread.c @  274> uk_thread 0x17f020 (init): ctx:0x17f020, ectx:0x17f100, tlsp:0x17c028
+[    0.127495] dbg:  [libukboot] <boot.c @  381> Call init function: 0x126660(0x10fa0)...
+Powered by
 o.   .o       _ _               __ _
 Oo   Oo  ___ (_) | __ __  __ _ ' _) :_
 oO   oO ' _ `| | |/ /  _)' _` | |_|  _)
 oOo oOO| | | | |   (| | | (_) |  _) :_
  OoOoO ._, ._:_:_,\_._,  .__,_:_, \___)
-                  Helene 0.18.0~8b39d45
+                  Helene 0.18.0~9b10442
 weak main() called. Symbol was not replaced!
